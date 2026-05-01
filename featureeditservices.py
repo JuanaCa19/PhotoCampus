@@ -8,18 +8,19 @@ def editar_servicio():
     ServicioEncontrado = utilidades.buscarServicio (codigo)
 
     if ServicioEncontrado:
-        
-        nombre = utilidades.validarStr(" Ingrese el nombre del servicio: ")
-        precio = utilidades.validarStr(" Ingrese la duracion : ")
-        evento = utilidades.validarFloat(" Ingrese el precio : ")
-        duracion = utilidades.validarEntero(" Ingrese el tipo de evento : ")
+        nombre   = utilidades.validarStr("Ingrese el nombre del servicio: ")
+        precio   = utilidades.validarFloat("Ingrese el precio: ")
+        evento   = utilidades.validarTipoEvento("Ingrese el tipo de evento(Boda/Retrato/Producto): ")
+        duracion = utilidades.validarEntero("Ingrese la duracion: ")
         for servicio in listas_servicios:
+           
             if codigo == servicio ["codigo"]:
-                servicio["nombre"] = nombre
-                servicio["precio"] = precio
-                servicio["evento"] = evento
+                servicio["nombre"]   = nombre
+                servicio["precio"]   = precio
+                servicio["evento"]   = evento
                 servicio["duracion"] = duracion
-        utilidades.escribirJson(lista_servicios)
+
+        utilidades.escribirJson(listas_servicios)
         print("servicio actualizado corretamente")
     else: 
         print ("no se encontro el servicio con el codigo asignado")
