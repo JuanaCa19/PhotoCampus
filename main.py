@@ -1,3 +1,7 @@
+import servicioFotografico
+import eliminarServicios
+import featureeditservices
+
 def menu():
     while True:
        print("1. Crear servicio fotográfico")
@@ -8,11 +12,11 @@ def menu():
        opcion = input("Selecciona una opción (1-4): ")
 
        if opcion == "1":
-           crear()
+           servicioFotografico.crear()
        elif opcion == "2":
-           eliminar_servicio()
+           eliminarServicios.eliminar_servicio()
        elif opcion == "3":
-           editar_servicio()
+           featureeditservices.editar_servicio()
        elif opcion == "4":
            print("\n¡Hasta luego! Cerrando PhotoCampus...")
            break

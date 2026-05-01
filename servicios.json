@@ -5,5 +5,12 @@
         "duracion": 3,
         "precio": 1251.3,
         "evento": "Boda"
+    },
+    {
+        "codigo": 124,
+        "nombre": "hgfghvjh",
+        "duracion": 5,
+        "precio": 1245.0,
+        "evento": "Boda"
     }
 ]
