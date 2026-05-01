@@ -13,7 +13,7 @@ def editar_servicio():
         precio = utilidades.validarStr(" Ingrese la duracion : ")
         evento = utilidades.validarFloat(" Ingrese el precio : ")
         duracion = utilidades.validarEntero(" Ingrese el tipo de evento : ")
-        for servicio in lista_servicios:
+        for servicio in listas_servicios:
             if codigo == servicio ["codigo"]:
                 servicio["nombre"] = nombre
                 servicio["precio"] = precio
