@@ -7,7 +7,7 @@ def crear():
     nombre = utilidades.validarStr("Ingrese el nombre del servicio: ")
     duracion = utilidades.validarEntero("Ingrese la duracion en horas: ")
     precio = utilidades.validarFloat("Ingrese el precio: ")
-    evento = utilidades.validarTipoEvento("Ingrese el tipo de evnto: ")
+    evento = utilidades.validarTipoEvento("Ingrese el tipo de evento(Boda/Retrato/Producto): ")
 
     servicio = dict(
         codigo = codigo,
