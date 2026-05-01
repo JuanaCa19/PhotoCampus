@@ -7,7 +7,7 @@ def editar_servicio():
     codigo = utilidades.validarEntero("Digita el codigo del servicio")
     ServicioEncontrado = utilidades.buscarServicio (codigo)
 
-    if lista_servicios:
+    if ServicioEncontrado:
         
         nombre = utilidades.validarStr(" Ingrese el nombre del servicio: ")
         precio = utilidades.validarStr(" Ingrese la duracion : ")
