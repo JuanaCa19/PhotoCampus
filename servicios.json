@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "codigo": 1,
+        "nombre": "1",
+        "duracion": 1,
+        "precio": 1.0,
+        "evento": "Boda"
+    }
+]
