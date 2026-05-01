@@ -4,7 +4,7 @@ import utilidades
 def eliminar_servicio():
 
     listas_servicios = utilidades.leerJson()
-    codigo = utilidades.validarEnteros("Digita el codigo del servicio")
+    codigo = utilidades.validarEntero("Digita el codigo del servicio")
     ServicioEncontrado = utilidades.buscarServicio (codigo)
     if ServicioEncontrado:
 
@@ -12,6 +12,7 @@ def eliminar_servicio():
             if  listas_servicios["codigo"] == codigo:
                 listas_servicios.remove(servicio)
                 break
+        utilidades.escribirJson(listas_servicios)
 
 
 
