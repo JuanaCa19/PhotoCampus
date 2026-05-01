@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+<<<<<<< HEAD
+    <option name="sdkName" value="Python 3.14 (PhotoCampus)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (PhotoCampus)" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Python 3.10 (PhotoCampus)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (PhotoCampus)" project-jdk-type="Python SDK" />
+>>>>>>> main
+</project>
