@@ -9,7 +9,7 @@ def eliminar_servicio():
     if ServicioEncontrado:
 
         for servicio in listas_servicios:
-            if  listas_servicios["codigo"] == codigo:
+            if  servicio["codigo"] == codigo:
                 listas_servicios.remove(servicio)
                 break
         utilidades.escribirJson(listas_servicios)
